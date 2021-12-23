@@ -20,7 +20,7 @@
             <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="main-nav__item main-nav__item--active">
-            <a class="main-nav__link" href="#">Подбор программы</a>
+            <a class="main-nav__link" href="form.html">Подбор программы</a>
           </li>
         </ul>
       </div>
@@ -28,14 +28,15 @@
   </header>
 
   <main>
-
-    <h1 class="page-form__title">Подбор программы</h1>
-    <p class="page-form__text">Заполните анкету, и мы подберем
-      программу питания для вашего кота</p>
+    <section class="intro">
+      <h1 class="intro__title">Подбор программы</h1>
+      <p class="intro__text">Заполните анкету, и мы подберем
+        программу питания для вашего кота</p>
+    </section>
 
     <form class="page-form form" action="https://echo.htmlacademy.ru/" method="post">
       <div class="form__list-wrapper">
-        <fieldset class="form__list--group">
+        <fieldset class="form__list-group">
           <legend class="visually-hidden"></legend>
           <ul class="form__list">
             <li class="form__item">
@@ -52,7 +53,7 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="form__radio-list--group">
+        <fieldset class="form__radio-list-group">
           <legend class="visually-hidden"></legend>
           <ul class="form__radio-list">
             <li class="form__radio-item">
@@ -89,7 +90,7 @@
       <fieldset class="form__comment">
         <legend class="form__comment-title">Комментарий</legend>
         <label class="visually-hidden" for="comment-field">Комментарий</label>
-        <textarea class="form__comment-textarea" name="comment" id="comment-field">Расскажите обо всех повадках кота</textarea>
+        <textarea class="form__comment-textarea" name="comment" id="comment-field" placeholder="Расскажите обо всех повадках кота"></textarea>
       </fieldset>
 
       <fieldset class="form__additional">
